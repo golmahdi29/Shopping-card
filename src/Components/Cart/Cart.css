@@ -1,0 +1,43 @@
+.card-img-top {
+    width: 100px !important;
+}
+
+.bag-sidebar {
+    position: fixed;
+    right: -400px;
+    bottom: 0;
+    top: 0;
+    width: 400px;
+    background-color: var(--white);
+    padding: 20px 20px;
+    font-size: 12px !important;
+    overflow-y: auto;
+    transition: 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bag-sidebar.active {
+    opacity: 1;
+    right: 0;
+    visibility: visible;
+}
+
+.bag-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-wrapper {
+    display: flex;
+}
+
+.btn {
+    font-size: 12px !important;
+}
+
+.number {
+    display: inline;
+    margin: 0;
+}

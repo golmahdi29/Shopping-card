@@ -1,0 +1,43 @@
+.navbar {
+    background-color: var(--dark);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    color: var(--main-red);
+    transition: 0.4s;
+}
+
+.nav-item .nav-link {
+    color: var(--main-white) !important;
+    text-decoration: none;
+}
+
+.bag {
+    position: relative;
+    display: flex;
+}
+
+.bag-product-counter {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    padding-top: 3px;
+    transform: translate(140%, 2px);
+    width: 18px;
+    height: 18px;
+    color: black !important;
+    background-color: var(--main-white);
+    color: var(--main-red);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.bag-icon {
+    width: 20px;
+    height: 20px;
+}

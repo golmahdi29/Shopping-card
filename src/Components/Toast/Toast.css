@@ -1,0 +1,21 @@
+.tost {
+    background-color: rgb(203, 250, 203);
+    color: green;
+    border: 1px solid green;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20rem !important;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btn-close {
+    font-size: 15px;
+}
